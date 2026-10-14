@@ -53,7 +53,6 @@ public class Player : MonoBehaviour
 
     void DetectShoot()
     {
-        // 1. Find every active rocket in the scene using their Tag
         GameObject[] bullets = GameObject.FindGameObjectsWithTag("Bullet");
 
         
